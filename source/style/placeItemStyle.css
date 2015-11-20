@@ -1,0 +1,43 @@
+/*
+	This positions the title of the Place in question
+*/
+#placeHeader{
+position: relative;
+}
+
+/*
+	This is for the place's icon image
+*/
+#placeIcon {
+	float: left;
+
+}
+
+/*
+	This is to place the Google Map embed on the left of the page.
+*/
+#placeMap {
+	float: right;
+
+}
+
+/*
+	This is for the written description of the place in particular
+*/
+#placeInfo{
+	clear: both;
+}
+
+/*
+	Both place details sections are meant for the detail table (Phone#, Address, Website)
+*/
+#placeDetails {
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
+#placeDetails{
+	background: linear-gradient(to right, #69a7cc, white, #69a7cc);
+}
+

@@ -1,0 +1,34 @@
+/*login page settings*/
+.login_btn {
+	font-size: 1.2em;
+	height: 1.8em; 
+	border:none; 
+	background:#fff;
+}
+.login_txt {
+	color: #a0a0a0; 
+	font-size: 0.9em;
+	padding-left: 5px;
+}
+.login_txt1{
+	color: #a0a0a0; 
+	font-size: 1.0em;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+.login_txt1 a {
+	text-decoration: none;
+}
+.login_txt1 a:link {
+	color: #a0a0a0; 
+}
+.login_pwd_align {
+	padding-left: 34px;
+}
+.login_reg_align { /*chrome*/	
+	padding-left: 47px;
+}
+.login_reg_align1{ /*firefox, ie, etc*/	
+	padding-left: 76px;
+}
+

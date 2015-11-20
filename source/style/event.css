@@ -1,0 +1,51 @@
+#calendar{ 
+	background-color: #4CCAEF;
+	padding: 10px;
+	display: inline-block;
+	background-image: url("../images/chinese-new-year.jpg");
+	padding: 2px 2px 2px 2px;
+	color: #003300;
+}	
+#calendar table {
+	border-spacing: 3PX;
+	border:solid 3px;
+	box-shadow: 5px 5px 30px black;
+	}
+#calendar td { 
+	text-align: center;
+	height: 20px;
+	width: 20px;
+	padding: 8px;
+	font-size: 15px;
+	width:0%;
+	border:solid 1px;
+}
+
+#vaisakhi-image { 
+	float:left;
+	padding-top: 10px;
+	padding-right: 10px;
+	height:150px;
+	width: 150px;	
+}
+#blossom-image { 
+	float:left;
+	padding-top: 10px;
+	padding-right: 10px;
+	height:150px;
+	width: 150px;	
+}
+#easter-image {
+	float:left;
+	padding-top: 17px;
+	padding-right: 10px;
+	height:150px;
+	width: 150px;		 
+}
+#new {
+	/*display: inline;*/
+	float: right;
+	width: 60%;
+}
+
+		

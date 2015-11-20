@@ -1,0 +1,63 @@
+body,html{margin:0;padding:0;height:100%;}
+
+/* setting the header division of main page*/
+#main_header{
+	height:130px;
+	width:100%;
+	text-align:center;
+	background:white;
+	padding-top:15px;
+	}
+/* setting the logo image effect */
+#main_header img{
+	/*-webkit-transition: -webkit-transform 3s;*/
+	transition: transform 2s;
+}	#main_header img:hover{
+		/*-webkit-transform: rotate(360deg) scale(1.2);*/
+		transform: rotate(360deg) scale(1.2);
+}
+
+/* setting the background image behind the main menus */
+#main_image{
+	width:100%;
+	height:500px;
+	background-image: url("../images/cork1.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top:100px;
+}
+
+/* setting the size of the menu divisions */
+#mian_menu{
+	height:400px;
+	width:100%;
+}
+/* setting the effects of menu images */
+img.main{
+	box-shadow: 5px 10px 20px black;
+}
+div.hiding{
+	background:black;
+	height:351px;
+	width:301px;
+	position:absolute;;
+	opacity:0.5;
+	transition: opacity 0.5s;
+	}
+#main_menu a:hover div.hiding{
+	opacity:0;
+}
+/* setting the size and align of  the main menus */
+#main_menu table{
+	margin:0 auto;
+	}
+#main_menu td{position:relative; padding:20px; transform: rotate(-10deg)}
+
+
+/* setting the footer division of the main page */
+footer{
+	width:100%;
+	height:100px;
+	padding-top:50px;
+	text-align:center;
+}

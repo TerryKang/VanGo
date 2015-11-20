@@ -1,0 +1,115 @@
+/*
+	This section is the main Content Div, all of the places elements are to be placed in this div
+	This div is positioned relative so float elements will float within it.
+*/
+#content{
+	position:relative;
+}
+
+/*
+	This is the design for the header title of the particular page. flattened drop shadow gives it it's design.
+*/
+#placeHeader{
+	margin: auto;
+	text-shadow: 2px 1px 1px #feab4a;
+	text-align: center;
+	font-size: 3em;
+	color: #003663;
+}
+/*
+	the following is for the items that are aligned to the left of the page. 
+*/
+
+.LItem {
+	margin-top: 20px;
+	background: linear-gradient(to right, #69a7cc, white);
+	height: 85px;
+}
+/*
+	this is for the table elements of the page
+*/
+.LItem table, .LItem th, .LItem td, .LItem tr{
+	border: none;
+	border-collapse: collapse;
+	padding: 0%;
+	margin: 0%;
+	text-align: left;
+}
+.LItem table{
+	float:left;
+	height: 85px;
+}
+
+/*
+	this is for the Title of the left aligned items. 
+*/
+.LItem h2{
+	padding-left: 10px;
+	margin: 0%;
+}
+
+/*
+	this is for the text description in the item
+*/
+.LItem p{
+	/*padding-left: 175px;*/
+	padding-left: 20px;
+	margin-top: 0%;
+}
+/*
+	this is for the thumbnail of the left aligned item
+*/
+.LItem image{
+	/*display: inline-block;*/
+}
+
+/*
+	this is for all the items that are aligned to the right of the page.
+*/
+
+.RItem {
+	margin-top: 20px;
+	background: linear-gradient(to left, #69a7cc, white);
+	height: 85px;
+}
+
+/*
+	table elements css edits
+*/
+.RItem table, .RItem th, .RItem td, .RItem tr{
+	border: none;
+	border-collapse: collapse;
+	padding: 0%;
+	margin: 0%;
+	text-align: right;
+}
+.RItem table{
+	float: right;
+	height: 85px;
+}
+
+/*
+	this is for the Title of the right aligned items. 
+*/
+.RItem h2{
+	padding-right: 10px;
+	margin: 0%;
+	padding-top: 0%;
+}
+/*
+	this is for the text description in the item
+*/
+.RItem p{
+	/*padding-left: 175px;*/
+	padding-right: 20px;
+	margin-top: 0%;
+}
+/*
+	this is for the thumbnail of the right aligned item
+*/
+
+.RItem image{
+	/*display: inline-block;*/
+	padding-top: 0%;
+	margin-top: 0%;
+}
